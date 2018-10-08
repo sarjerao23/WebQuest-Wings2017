@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+html
+{
+	background: url("r1q1bg-img.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;	
+	background-repeat: no-repeat;
+	margin: 0 auto;			
+}
+body
+{
+	min-height: 100%;
+	text-align:center;
+	margin-top:0%;
+	color:#FFF5FE;
+	height: 100%;
+	width: 100%;
+}
+.form--login input[type="submit"] {
+  background-color: #03ac13;
+  color: #eee;
+  font-weight: bold;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+.form--login input[type="submit"]:focus, .form--login input[type="submit"]:hover {
+  background-color: #03c04a;
+
+}
