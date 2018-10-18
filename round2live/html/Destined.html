@@ -1,0 +1,184 @@
+			<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Destined
+		
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<style >
+	     html,body{
+	     	font-family:'Gloria Hallelujah', cursive;
+	     	font-size:30px;
+	     	color: black;
+	     	height: 100%;
+	     	background: url("image1.jpg") no-repeat center center fixed ;
+		 	-webkit-background-size:cover;
+		 	-moz-background-size:cover;
+		 	-o-background-size:cover;
+		 	line-height: 100%;
+	     	
+		 	
+	     }
+	     .container-fluid{
+	     	height: 100%;
+	     	overflow: hidden;
+
+	     }
+		
+		.main{
+			
+			padding:5%;
+		    padding-top: 35%;
+		    padding-left:10%;
+		    height:100%;
+
+		    color: #ccffff;
+
+		  }
+		 input[type="text"]{
+		 	
+		 	
+
+		 	width:65%;
+			border:1px solid grey;
+			border-radius:15px 50px;
+			
+			height:50px;
+			text-align: center;
+			font-size:25px;
+			text-indent: 5px;
+
+		 }
+		 .image{
+		 	padding-top: 20%;
+		 	padding-right:12%;
+
+		 
+		 }
+		 img{
+		 	width:300px;
+		 	 height:350px;
+		 	 
+		 	 
+		 	 
+
+		 }
+		 .left{
+		 	
+		 	
+		 	
+		 	margin-bottom:-9999px;
+		 	padding-bottom: 9999px; 
+
+		 }
+		
+		 .row .left{
+		 	height:100%;
+            
+		 }
+		 
+
+		 .button{
+			  padding: 10px;
+			  font-family: 'Gloria Hallelujah', cursive;
+
+			  background-color: rgba(192,192,192,0.7);
+			  font-size:25px;
+			  color:white;
+			  border:2px solid grey;
+			  border-radius:25px;
+			  width:30%;
+		}
+		.button:hover{
+			background-color: rgba(192,192,192,0.2);
+		}
+
+		#fshow{
+			display: none;
+			padding-top: 55%;
+		}
+	</style>
+		}
+
+</head>
+<body>
+
+
+<div class="container-fluid">
+		  <div class="row " >
+                     <!--left image-->
+		  	       <div class="col-md-3 image content2">
+		  	       	<img  class="img-rounded center-block" id="hiddenimageleft"  >
+		  	       </div>
+		  	       <!--center-->		
+				    <div class="col-md-6 left " >
+				    	<div class="row" id="fhide">
+						    	<div class="row center-block main mx-auto">"NESCITIS QVA HORA DOMINVS VENIET" </div>
+						    	
+
+						    	<div class="row center-block content"><input type="text" class=" center-block mx-auto" id="answer" name="Answer" placeholder="Answer"><br></div>
+						    	<div class="row content "> 
+						    		<button class=" button btn btn-success  btn-lg center-block mx-auto"  onclick="showdivimage()">Submit</button>
+						    	</div>
+				    	</div>
+				    	<div class="row" id="fshow">
+				    		<div class="row center-block content"><input type="text" class=" center-block mx-auto" id="answer" name="Answer" placeholder=" Final Answer"><br></div>
+						    	<div class="row content "> 
+						    		<button class=" button btn btn-success  btn-lg center-block mx-auto">Submit</button>
+						    	</div>
+				    	</div>
+
+
+					</div>
+
+
+
+
+
+					<!-- right sideof PAGE-->
+				    <div class="col-md-3 image content2"  >
+				    	<img  class="img-rounded center-block" id="hiddenimageright"  >
+				    </div>
+		  </div>
+  
+  
+</div>
+
+
+</body>
+<script >
+		function showdivimage(){
+		
+		
+
+		var x=document.getElementById("hiddenimageleft");
+		var X=document.getElementById("hiddenimageright");
+		var y=document.getElementById("answer");
+		var a=document.getElementById("fhide");
+		var b=document.getElementById("fshow");
+		if(y.value==="death"||y.value==="Death"||y.value==="DEATH"){
+		x.src="left.jpg";
+	      X.src="bhoot2.jpg";
+
+	      	a.style.display="none";
+	      	b.style.display="block";
+	      	
+
+
+
+	  }
+
+		else if(y.value===""){
+			alert("Enter the answer you moron!");
+
+		}
+		else{
+			alert("Try Harder,You are almost there");
+		}
+		
+
+	};
+</script>
+</html>
