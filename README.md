@@ -26,7 +26,7 @@ ROUND-2: Finale Round, where participants are required to have out of box thinki
 # Authors:
 1. Purva Chaudhari (Frontend Developer)
 
-2. Rushikesh Jachak
+2. Rushikesh Jachak (Frontend Developer)
 
 3. Parth Bhope
 
