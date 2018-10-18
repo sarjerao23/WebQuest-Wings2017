@@ -28,14 +28,14 @@ ROUND-2: Finale Round, where participants are required to have out of box thinki
 
 2. Rushikesh Jachak (Frontend Developer)
 
-3. Parth Bhope
+3. Parth Bhope (Backend Developer)
 
-4. Mustafa Qazi
+4. Mustafa Qazi (Frontend Developer)
 
-5. Devyani Kulkarni
+5. Devyani Kulkarni (Frontend Developer)
 
-6. Ashutosh Gajre
+6. Ashutosh Gajre 
 
-7. Mayur Rahangdale
+7. Mayur Rahangdale (Frontend Developer)
 
 8. Prabhleen Kaur Bindra
