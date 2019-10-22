@@ -106,6 +106,7 @@ if(isset($_POST["register"]))
      </div>
    </form>
  </div>
+	 <p>All copy rights reserved to <b>purva</b>.</p>
 </div>	
 
 </body>
