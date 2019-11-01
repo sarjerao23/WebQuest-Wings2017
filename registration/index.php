@@ -3,6 +3,8 @@
 <head>
 	<title>Web Quest 4.0 Registration</title>
 	<meta charset='UTF-8'>
+	<meta name="description" content="WebQuest-Wings2017">
+        <meta name="keywords" content="WebQuest,Wings2k17,GECA">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="Stylesheet" href="./css/login1.css" type="text/css"/>
 	<link rel="Stylesheet" href="./css/login2.css" type="text/css"/>
